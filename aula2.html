@@ -1,0 +1,60 @@
+<html>
+<!--comentário-->
+<head>
+	<title>Aula 01 - Scripts em html</title>
+</head>
+<!---Corpo da página-->
+<body bgcolor = black text=green>
+	<center>
+		<b>
+			<u>
+				<h1>Cadastro de clientes</h1>
+			</u>
+		</b>
+	</center>
+	<fieldset>
+		<legend>Dados pessoais</legend>
+		<label>Nome do cliente:</label>
+		<br>
+		<input type='text' value='' size='60' maxlength='60' required>
+		<br>
+		<label>Senha: </label>
+		<br>
+		<input type='password' value='' size='60' maxlength='20' required>&nbsp;&nbsp;
+		<labe>Selecione sua idade:</label>
+		<input type='number' min='1' maxlength='100'>&nbsp;&nbsp;
+		<label>Sexo:</label>
+		<input type='radio' name='sexo'>Masculino
+		<input type='radio' name='sexo'>Feminino
+		<br>
+		<br>
+		<label>Selecione os cursos de seu interesse: </label>
+		<ol>
+			<li>
+				<input type='checkbox' name='curso'>HTML
+			</li>
+			<li>
+				<input type='checkbox' name='curso'>CSS
+			</li>
+			<li>
+				<input type='checkbox' name='curso'>JS
+			</li>
+			<li>
+				<input type='checkbox' name='curso'>PHP
+			</li>
+		</ol>
+		<br>
+		<label>Selecione uma cidade:</label>
+		<br>
+		<select name='cidade'>
+			<option value='SA'>Santo André</option>
+			<option value='SBC'>São Bernardo</option>
+			<option value='SCS'>São Caetano</option>
+			<option value='MA'>Mauá</option>
+		</select>
+		<br>
+		<br>
+		<label>Observações gerais:</label>
+		<br>
+		<textarea cols='50' rows='6'></textarea>
+</body>
