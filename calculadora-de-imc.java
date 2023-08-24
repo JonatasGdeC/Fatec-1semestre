@@ -3,8 +3,8 @@ public class MyClass {
       
       //índice de massa comporal (IMC)
       double IMC = 0;
-      double peso = 200.2;
-      double altura = 2.51;
+      double peso = 80;
+      double altura = 1.80;
       
       //Calculando um novo valor do IMC
       IMC = peso / (altura * altura);
